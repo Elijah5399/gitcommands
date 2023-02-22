@@ -2,6 +2,8 @@
 
 <h2>A repository to practice and save git commands</h2>
 
+This is an additional edit.
+
 1.  git clone [repository to be copied from (usually from github)] [destination (usually an empty file in the local computer)]
 2.  git add [filenames]
     Stages the files for commit. Use git add . to stage all files in the current working repository.
@@ -34,10 +36,6 @@ Common git collaboration workflow:
 (1) Create your own branch on github and initialise it locally.
 For this, create the branch on github, then do git pull. Now you can see the branches other people created locally, at the branch origin/branchname.
 (2) Merge with other people's changes
-For this, use git merge branchname
-
-(1) Fetch and merge changes from the remote
-(2) Create a branch to work on a new project feature
-(3) Develop the feature on a branch and commit the work
-(4) Fetch and merge from the remote again (in case new commits were made)
-(5) Push branch up to the remote for review
+For this, use git merge branchname, then manually resolve merge conflicts.
+(3) Commit and push changes
+USe git add ., git commit and git push to push the branch changes to github
