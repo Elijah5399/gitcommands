@@ -32,7 +32,9 @@
 
 Common git collaboration workflow:
 (1) Create your own branch on github and initialise it locally.
-For this, create the branch on github, then do git pull. Then,
+For this, create the branch on github, then do git pull. Now you can see the branches other people created locally, at the branch origin/branchname.
+(2) Merge with other people's changes
+For this, use git merge branchname
 
 (1) Fetch and merge changes from the remote
 (2) Create a branch to work on a new project feature
