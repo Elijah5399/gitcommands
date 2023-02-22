@@ -1,2 +1,2 @@
 # gitcommands
-<p>A repository to practice and save git commands</p>
+<h1>A repository to practice and save git commands</h1>
