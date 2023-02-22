@@ -2,8 +2,6 @@
 
 <h2>A repository to practice and save git commands</h2>
 
-This is an additional edit.
-
 1.  git clone [repository to be copied from (usually from github)] [destination (usually an empty file in the local computer)]
 2.  git add [filenames]
     Stages the files for commit. Use git add . to stage all files in the current working repository.
