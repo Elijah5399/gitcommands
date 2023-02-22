@@ -24,6 +24,11 @@ A repository to practice and save git commands
     Does a fetch and a merge. i.e. updates your files with all updates other people made.
 9.  git checkout [branchname]]
     Changes to the specified branch
+10. git reset
+    If you want to go back to a previous state, use git reset commit_SHA where
+    commit_SHA is the commit id.
+    Can also do git reset HEAD filename to remove a file from the staging area.
+    This does not discard changes.
 
 Common git collaboration workflow:
 (1) Fetch and merge changes from the remote
