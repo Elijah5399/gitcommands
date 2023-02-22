@@ -1,6 +1,6 @@
 # gitcommands
 
-A repository to practice and save git commands
+<h1>A repository to practice and save git commands</h1>
 
 1.  git clone [repository to be copied from (usually from github)] [destination (usually an empty file in the local computer)]
 2.  git add [filenames]
