@@ -24,7 +24,7 @@ This is an additional edit.
     Merges the current working branch with the specified branch.
 8.  git pull
     Does a fetch and a merge. i.e. updates your files with all updates other people made.
-9.  git checkout [branchname]]
+9.  git checkout [branchname]
     Changes to the specified branch
 10. git reset
     If you want to go back to a previous state, use git reset commit_SHA where
@@ -39,3 +39,6 @@ For this, create the branch on github, then do git pull. Now you can see the bra
 For this, use git merge branchname, then manually resolve merge conflicts.
 (3) Commit and push changes
 USe git add ., git commit and git push to push the branch changes to github
+(4) Submit a pull request on github
+(5) If the changes are acceptable, accept the pull request.
+This merges the changes onto main.
