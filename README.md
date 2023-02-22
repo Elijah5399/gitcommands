@@ -31,6 +31,8 @@
     This does not discard changes.
 
 Common git collaboration workflow:
+(1) Create your own branch on github and initialise it locally. For this, use
+
 (1) Fetch and merge changes from the remote
 (2) Create a branch to work on a new project feature
 (3) Develop the feature on a branch and commit the work
