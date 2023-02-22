@@ -22,7 +22,7 @@
     Merges the current working branch with the specified branch.
 8.  git pull
     Does a fetch and a merge. i.e. updates your files with all updates other people made.
-9.  git checkout [branchname]]
+9.  git checkout [branchname]
     Changes to the specified branch
 10. git reset
     If you want to go back to a previous state, use git reset commit_SHA where
@@ -31,9 +31,15 @@
     This does not discard changes.
 
 Common git collaboration workflow:
-(1) Create your own branch on github and initialise it locally.
+
+<ul>
+<li>(1) Create your own branch on github and initialise it locally.</li>
 For this, create the branch on github, then do git pull. Now you can see the branches other people created locally, at the branch origin/branchname.
-(2) Merge with other people's changes
+<li>(2) Merge with other people's changes</li>
 For this, use git merge branchname, then manually resolve merge conflicts.
-(3) Commit and push changes
-USe git add ., git commit and git push to push the branch changes to github
+<li>(3) Commit and push changes</li>
+Use git add ., git commit and git push to push the branch changes to github
+<li>(4) Submit a pull request on github</li>
+<li>(5) If the changes are acceptable, accept the pull request.</li>
+This merges the changes onto main.
+</ul>
